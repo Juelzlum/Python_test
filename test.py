@@ -20,7 +20,8 @@ print('Hello ' + my_name + '!')
 # sum = float(num1) + int(num2)
 # print(sum)
 
-course = 'python'
+course = 'python is readable'
 print(course.capitalize())
 print(course.find('y'))
-print(course)
+print('pythons' in course)
+
