@@ -31,5 +31,14 @@
 #     print(i * '*')
 #     i = i + 1
 
-names = ["Julian", "Daryl", "Jess", "Bob"]
-print(names[-5])
+# names = ["Julian", "Daryl", "Jess", "Bob"]
+# print(names[-5])
+
+# num = [1, 2, 3, 4]
+# for item in num :
+#     print(item)
+
+first = 'Julia'
+last = 'Lum'
+msg = f'{first} [{last}] is a coder'
+print(msg)
