@@ -38,7 +38,12 @@
 # for item in num :
 #     print(item)
 
-first = 'Julia'
-last = 'Lum'
-msg = f'{first} [{last}] is a coder'
-print(msg)
+# first = 'Julia'
+# last = 'Lum'
+# msg = f'{first} [{last}] is a coder'
+# print(msg)
+
+import math
+
+print(math.ceil(2.9))
+
