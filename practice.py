@@ -66,9 +66,20 @@ numbers = [5, 2, 5, 2, 2]
 #         max = number
 # print(max)
 
-coord = (1, 2, 3)
-x, y , z  = coord
-print(z)
+# coord = (1, 2, 3)
+# x, y , z  = coord
+# print(z)
+# ## works with list too
+
+# customer = {
+#     "name" : "John Smith ",
+#     "age" : 30, 
+#     "is_verified" : True
+# }
+
+# customer['birthdate'] = "Aug 5 1992"
+# print(customer.get("birthdate" , "Aug 5 1992"))
+# print(customer)
 
 
 
