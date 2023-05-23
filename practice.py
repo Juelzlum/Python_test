@@ -54,10 +54,23 @@
 
 numbers = [5, 2, 5, 2, 2] 
 
-for item in numbers : 
-    output = '' 
-    for count in range(item) : 
-        output  += 'x'
-    print(output)
+# for item in numbers : 
+#     output = '' 
+#     for count in range(item) : 
+#         output  += 'x'
+#     print(output)
+
+# max = numbers[0]
+# for number in numbers: 
+#     if number > max: 
+#         max = number
+# print(max)
+
+coord = (1, 2, 3)
+x, y , z  = coord
+print(z)
+
+
+
     
 
