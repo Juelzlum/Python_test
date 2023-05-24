@@ -6,20 +6,22 @@ def greetUser(name) :
 # print(greetUser('Julian'))
 # print('Finish')
 
-def plus(number) : 
-   return number + number
+# def plus(number) : 
+#    return number + number
 
-print(plus(3))
+# print(plus(3))
 
-# message = input('> ')
-# words = message.split(' ') 
 
-# emojis = {
-#     ':)' : '😃' , 
-#     ':(' : '😭'
-# }
-# output = ''
-# for word in words: 
-#    output += emojis.get(word, word) + ' '
-# print(output)
+def reaction(message) :
+  words = message.split(' ') 
+  emojis = {
+      ':)' : '😃' , 
+      ':(' : '😭'
+  }
+  output = ''
+  for word in words: 
+    output += emojis.get(word, word) + ' '
+  return output
 
+message = input('> ')
+print(reaction(message))
