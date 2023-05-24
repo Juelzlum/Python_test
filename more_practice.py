@@ -23,5 +23,16 @@ def reaction(message) :
     output += emojis.get(word, word) + ' '
   return output
 
-message = input('> ')
-print(reaction(message))
+# message = input('> ')
+# print(reaction(message))
+
+
+try: 
+  age = int(input('Age: '))
+  income = 20000
+  risk = income/age
+  print(risk)
+except ZeroDivisionError: 
+  print('Cannot be Zero')
+except ValueError: 
+  print('Invalid Code')
