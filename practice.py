@@ -1,5 +1,5 @@
 import converter
-
+import random
 
 # x = 10
 # x += 3 
@@ -63,7 +63,7 @@ numbers = [5, 2, 5, 2, 2]
 #     print(output)
 print(converter.findMax(numbers))
 
-# max = numbers[0]g
+# max = numbers[0]gx
 # for number in numbers: 
 #     if number > max: 
 #         max = number
@@ -114,3 +114,22 @@ print(converter.findMax(numbers))
 # for word in words: 
 #    output += emojis.get(word, word) + ' '
 # print(output)
+
+# for i in range(3) : 
+#   print(random.randint(10,20))
+
+# members = ['John', 'Julian', 'Jess']
+# leader = random.choice(members)
+# print(leader)
+
+class Dice : 
+    def roll(self) : 
+        first = random.randint(1,6)
+        second = random.randint(1,6)
+        return first, second
+    
+dice = Dice()
+
+print(dice.roll())
+
+
