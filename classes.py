@@ -39,10 +39,16 @@
     
 
 import converter
-from converter import kgToLbs
+from converter import kgToLbs  ## specific function 
 
 kgToLbs(100)
 
 print(converter.kgToLbs(70))
 
 
+def findMax (arr) : 
+  max = arr[0]
+  for x in arr: 
+    if x > max: 
+      max = x 
+  return max 

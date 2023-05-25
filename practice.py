@@ -1,3 +1,5 @@
+import converter
+
 
 # x = 10
 # x += 3 
@@ -59,8 +61,9 @@ numbers = [5, 2, 5, 2, 2]
 #     for count in range(item) : 
 #         output  += 'x'
 #     print(output)
+print(converter.findMax(numbers))
 
-# max = numbers[0]
+# max = numbers[0]g
 # for number in numbers: 
 #     if number > max: 
 #         max = number
@@ -100,14 +103,14 @@ numbers = [5, 2, 5, 2, 2]
 # print(output)
 
 
-message = input('> ')
-words = message.split(' ') 
+# message = input('> ')
+# words = message.split(' ') 
 
-emojis = {
-    ':)' : '😃' , 
-    ':(' : '😭'
-}
-output = ''
-for word in words: 
-   output += emojis.get(word, word) + ' '
-print(output)
+# emojis = {
+#     ':)' : '😃' , 
+#     ':(' : '😭'
+# }
+# output = ''
+# for word in words: 
+#    output += emojis.get(word, word) + ' '
+# print(output)
