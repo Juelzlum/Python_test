@@ -59,3 +59,6 @@ def findMin (arr) :
         if x < min:
             min = x
     return min
+
+  def findNum(arr) : 
+    
