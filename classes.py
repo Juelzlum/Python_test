@@ -60,5 +60,3 @@ def findMin (arr) :
             min = x
     return min
 
-  def findNum(arr) : 
-    
