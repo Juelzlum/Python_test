@@ -58,5 +58,6 @@ def findMin (arr) :
     for x in arr: 
         if x < min:
             min = x
-    return min
+  
+  return min
 
